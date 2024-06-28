@@ -50,7 +50,7 @@ const Intro = () => {
       <div className="absolute right-20 bottom-[-8%] w-1/3 overflow-hidden rounded-t-full">
         <img src='/profile/my2.jpg' alt='about_img' className="w-full" />
       </div>
-      <div className="absolute bottom-10 left-20 text-white text-2xl">
+      <div className="absolute bottom-10 left-20 text-2xl">
         <p className="flex"><span className="font-bold w-32">학력:</span> <span>한성대학교 정보시스템공학과</span></p>
         <p className="flex"><span className="font-bold w-32">전화번호:</span> <span>010-5626-1822</span></p>
         <p className="flex"><span className="font-bold w-32">주소:</span> <span>서울특별시 성동구 성수동2가</span></p>

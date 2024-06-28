@@ -25,13 +25,13 @@ const Contact = () => {
           <div className="mb-4">
             <h3 className="text-xl font-semibold text-blue-800">깃허브 주소:</h3>
             <p className="text-lg">
-              <a href="https://github.com/ayu715" target="_blank" rel="noopener noreferrer" className="text-white hover:underline">https://github.com/ayu715</a>
+              <a href="https://github.com/ayu715" target="_blank" rel="noopener noreferrer" className="text-black hover:underline">https://github.com/ayu715</a>
             </p>
           </div>
           <div className="mb-4">
             <h3 className="text-xl font-semibold text-blue-800">노션 주소:</h3>
             <p className="text-lg">
-              <a href="https://www.notion.so/4-Beer-5d54edc1e7574cf58fc50d979819fd3b" target="_blank" rel="noopener noreferrer" className="text-white hover:underline">https://www.notion.so/4-Beer-5d54edc1e7574cf58fc50d979819fd3b</a>
+              <a href="https://www.notion.so/4-Beer-5d54edc1e7574cf58fc50d979819fd3b" target="_blank" rel="noopener noreferrer" className="text-black hover:underline">https://www.notion.so/4-Beer-5d54edc1e7574cf58fc50d979819fd3b</a>
             </p>
           </div>
         </div>

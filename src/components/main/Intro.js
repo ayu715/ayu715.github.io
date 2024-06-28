@@ -32,18 +32,18 @@ const Intro = () => {
   const currentText = isFirstText ? firstText : secondText;
 
   return (
-    <section id="intro" className="relative mt-20 h-[60rem] p-12 overflow-hidden text-gray-500">
+    <section id="intro" className="relative mt-20 h-[60rem] p-12 overflow-hidden text-black bg-white font-serif">
       <div className="absolute top-1/2 left-20 z-10 transform -translate-y-1/2">
         <p className="text-7xl ">저는</p>
         <p className="text-7xl">
           <em className="text-pink-600 typing">JAVA Back-END 개발자</em>
         </p>
         <p className="text-7xl ">
-          <span className="text-pink-600"></span> 입니다.
+        입니다.
         </p>
         <div className={`mt-8 text-4xl  transition-opacity duration-500 ${fadeIn ? 'opacity-100' : 'opacity-0'}`}>
           {currentText.map((line, index) => (
-            <p key={index}>{line}</p>
+            <p key={index} className='pb-3'>{line}</p>
           ))}
         </div>
       </div>

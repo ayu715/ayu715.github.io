@@ -20,9 +20,9 @@ const AnimatedContact = withAnimation(Contact, 'fade-in');
 
 const Main = () => {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen ">
       <Header />
-      <main className="flex-grow container mx-auto p-4">
+      <main className="flex-grow container mx-auto p-4 ">
         <AnimatedIntro />
         <AnimatedTechStack />
         <AnimatedAboutMe />

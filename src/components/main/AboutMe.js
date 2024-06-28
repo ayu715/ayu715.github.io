@@ -3,7 +3,7 @@ import { DESC_BOTTOM, DESC_TOP } from '../utils/data';
 
 const AboutMe = () => {
   return (
-    <section id="aboutme" className="relative p-12 bg-gray-700 text-white">
+    <section id="aboutme" className="relative p-12  text-black bg-orange-100 font-sans">
       <div className="container mx-auto">
         <h2 className="text-center text-7xl">자기소개</h2>
         <div className="relative w-1/2 mx-auto mt-12">

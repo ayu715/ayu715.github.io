@@ -41,14 +41,14 @@ const TechStack = () => {
   ];
 
   return (
-    <section id="techstack" className="p-12 bg-gray-800 text-white">
+    <section id="techstack" className="p-12  text-gray-800 bg-orange-50">
       <div className="container mx-auto">
         <h2 className="text-6xl font-bold mb-4 text-center">기술 스택</h2>
 
         <h3 className="text-3xl font-semibold mb-4">Frontend</h3>
         <ul className="flex flex-wrap justify-center gap-4 mb-8">
           {frontendTechs.map((tech) => (
-            <li key={tech.name} className="flex items-center space-x-2 p-2 bg-blue-800 shadow-lg rounded-lg">
+            <li key={tech.name} className="flex items-center space-x-2 p-2 bg-blue-500 shadow-lg rounded-lg">
               {tech.icon}
               <span className="text-lg font-semibold">{tech.name}</span>
             </li>

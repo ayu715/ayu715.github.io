@@ -3,7 +3,7 @@ import { KEYWORD } from '../utils/data';
 
 const StrongPoint = () => {
   return (
-    <section id="strongpoint" className="p-12 bg-gray-600 text-white">
+    <section id="strongpoint" className="p-12 bg-orange-50 text-black">
       <div className="container mx-auto">
         <h2 className="text-center text-7xl">나의 장점</h2>
         <div className="relative mt-12">

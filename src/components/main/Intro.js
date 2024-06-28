@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Intro.css';  // CSS 파일을 포함합니다.
+import { Link } from 'react-router-dom';
+import { GrDeploy } from 'react-icons/gr';
 
 const Intro = () => {
   const [isFirstText, setIsFirstText] = useState(true);
@@ -55,6 +57,7 @@ const Intro = () => {
         <p className="flex"><span className="font-bold w-32">전화번호:</span> <span>010-5626-1822</span></p>
         <p className="flex"><span className="font-bold w-32">주소:</span> <span>서울특별시 성동구 성수동2가</span></p>
         <p className="flex"><span className="font-bold w-32">이메일:</span> <span>g56261822@gmail.com</span></p>
+        <Link target='_blank' className="px-1" to="https://js1.jsflux.co.kr/"><GrDeploy size="20" /></Link>
       </div>
     </section>
   );
